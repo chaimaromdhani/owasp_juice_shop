@@ -1,16 +1,16 @@
-Pentest OWASP Juice Shop
+# Pentest OWASP Juice Shop
 
 Test d'intrusion de l'application web volontairement vulnérable OWASP Juice Shop, réalisé dans un environnement local isolé. Projet individuel (cycle ingénieur SSIR, TEK-UP).
 
-Objectif
+## Objectif
 
 Identifier des vulnérabilités applicatives, démontrer leur exploitation, mesurer leur impact et proposer des corrections.
 
-Environnement et outils
+## Environnement et outils
 Attaquant : Kali Linux
 Cible : OWASP Juice Shop (Node.js / Express) sur localhost:3000
 Outils : Nmap, WhatWeb, Gobuster, Dirsearch, Burp Suite, DevTools Firefox, jwt_tool, JWT.io
-Démarche
+## Démarche
 Reconnaissance : découverte du service (Nmap, WhatWeb), énumération des répertoires (/ftp, /rest, /api) et des endpoints d'API.
 Analyse de session : décodage du jeton JWT et lecture de son contenu (e-mail, rôle, identifiant).
 Exploitation et recommandations pour chaque faille.
